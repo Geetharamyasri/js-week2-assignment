@@ -1,6 +1,6 @@
 function upDate(previewPic){
   var imageSRC = previewPic.src;
-  document.getElementById('image').style.backgroundImage = url'(imageSRC)';
+  document.getElementById('image').style.backgroundImage = 'url('   +  imageSRC  +  ')';
   document.getElementById('image').innerHTML = previewPic.alt;
  
   /* In this function you should 
